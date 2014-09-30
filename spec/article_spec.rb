@@ -30,8 +30,8 @@ describe 'handla' do
 
   it 'should cancel if not enough money ' do
 
-    expect(handla(vara:1,kronor:9)).to match "Tyvörr för lite pengar"
-    expect(handla(vara:2,kronor:7)).to match "Tyvörr för lite pengar"
+    expect(handla(vara:1,kronor:9)).to match "Tyvärr för lite pengar"
+    expect(handla(vara:2,kronor:7)).to match "Tyvärr för lite pengar"
   end
 
 end
